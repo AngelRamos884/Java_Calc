@@ -31,6 +31,7 @@ class MarcoCalculadora extends JFrame{
 class LaminaCalculadora extends JPanel{
 
     public LaminaCalculadora(){
+        //Variable que determina si hay un 0
         principio = true;
 
         setLayout(new BorderLayout());
@@ -49,6 +50,7 @@ class LaminaCalculadora extends JPanel{
 
         ActionListener orden = new AccionOrden();
 
+        //Establecer botones
         Botones("1", insert);
         Botones("2", insert);
         Botones("3", insert);
